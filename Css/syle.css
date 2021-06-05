@@ -1,0 +1,984 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Roboto Slab', serif;; */
+    font-family: 'Raleway', sans-serif;
+}
+
+#header
+{
+    width: 100%;
+   
+}
+
+#header nav
+{
+    width: 90%;
+    margin: 0 auto;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0px;
+}
+
+#header .logo
+{
+    width: 30%;
+}
+#header .logo h4
+{
+    font-size: 24px;
+}
+
+#header nav ul
+{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+#header nav ul li
+{
+    list-style: none;
+}
+#header nav ul li a
+{
+    text-decoration: none;
+    color: #000;
+  
+}
+
+#header nav ul li a:hover
+{
+    font-weight: bold;
+    color: seagreen;
+   
+}
+
+#header nav button
+{
+    width: 7%;
+    background: none;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+#header .fa-navicon
+{
+    font-size: 23px;
+    display: none;
+}
+
+/* banner starts */
+
+.banner
+{
+   width: 90%;
+   margin: 0 auto;
+  
+}
+.banner img
+{
+    width: 100%;
+    height: 500px;
+    border-radius: 8px;
+}
+
+.banner_text
+{
+    width: 40%;
+    position: absolute;
+    margin-top: -30%;
+    margin-left: 5%;
+    color: rgb(58, 49, 49);
+}
+
+
+.banner_text h1
+{
+    font-size: 40px;
+    font-weight: bold;
+}
+.banner_text p
+{
+    padding: 20px 0px;
+    line-height: 24px;
+   
+}
+.btn_1
+{
+    width: 100px;
+    height: 40px;
+    color: #000;
+    border: 1px solid rgb(58, 49, 49);
+    background: none;
+    border-radius: 5px;
+    
+}
+
+/* banner ends */
+
+/* About_Us starts */
+
+#About_us
+{
+    width: 90%;
+    margin: 0 auto;
+    background-image: url(../Img/About.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+
+#About_us .About
+{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.About .left_section
+{
+    width: 60%;
+   
+}
+
+.About .left_section h3
+{
+   color: rgb(46, 46, 214);
+   font-weight: 100;
+  
+}
+.heading {
+    color: cornflowerblue;
+    position: relative;
+    margin-left: 60px;
+}
+
+.heading::before {
+    content: '';
+    width: 35px;
+    height: 2px;
+    background-color: rgb(46, 91, 177);
+    left: -40px;
+    position: absolute;
+    top: 10px;
+}
+
+.About .left_section h1
+{
+    font-size: 40px;
+    color: rgb(58, 49, 49);
+}
+
+
+
+.About .left_section p
+{
+    padding: 18px 0px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+ .left_section .small
+{
+    width: 45%;
+}
+ 
+.about_bottom
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_bottom .bottom
+{
+    width: 45%;
+}
+.about_bottom .bottom img
+{
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.about_bottom .bottom h4
+{
+    color: rgb(58, 49, 49);
+}
+
+.about_bottom div p
+{
+   
+    line-height: 24px;
+}
+
+
+#About_us .About .right_section
+{
+    width: 35%;
+    border-radius: 10px;
+    background: rgb(245, 243, 243);
+   
+}
+
+
+.right_section .Enuiry
+{
+    width: 100%;
+    background: cyan;
+    text-align: center;
+    padding: 17px;
+    color: #fff;
+   
+}
+.right_section  input
+{
+    width: 80%;
+   padding: 15px;
+   margin-bottom: 20px;
+   margin-left: 40px;
+   border: 1px solid grey;
+   border-radius: 4px;
+}
+#Top
+{
+    margin-top: 20px;
+}
+
+.right_section textarea
+{
+    width: 80%;
+    height: 150px;
+    margin-left: 40px;
+    padding: 7px;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+.Send
+{
+    width: 80%;
+    margin-left: 40px;
+    background: cyan;
+    padding: 12px;
+    margin-top: 20px;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+/* About_Us ends */
+
+
+/* suggetion starts */
+
+#Suggetion
+{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Suggetion .courses
+{
+    width: 31%;
+    background: lightgray;
+   margin-bottom: 30px;
+   padding-bottom: 20px;
+   border-radius: 7px;
+}
+
+#Suggetion  #background
+{
+    background: none;
+    
+}
+
+#Suggetion  #background h4
+{
+    color:blue;
+    font-weight: 100;
+}
+
+#Suggetion  #background h1
+{
+    font-size: 37px;
+    color: rgb(58, 49, 49);
+    padding: 18px 0px;
+}
+
+.btn_3
+{
+    width: 150px;
+    height: 40px;
+    color: #fff;;
+    border: none;
+    background: darkcyan;
+    border-radius: 5px;
+    margin-top: 24px;
+}
+
+
+#Suggetion .courses img
+{
+    width: 100%;
+    border-radius: 6px;
+
+}
+
+#Suggetion .courses p
+{
+ padding: 10px 15px;
+}
+#Suggetion .courses h3
+{
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+#Suggetion .courses .Enroll
+{
+    padding-left: 60%;
+}
+
+/* -- suggetion ends  */
+
+/* uncoming courses starts */
+
+#Uncoming
+{
+    width: 90%;
+    margin: 0 auto;
+}
+#Uncoming .courses
+{
+    padding: 35px 0px;
+    text-align: center;
+}
+
+.courses h5
+{
+    font-weight: 100;
+    color: blue;
+    font-size: 18px;
+}
+
+
+.heading_2::before{
+    left: 38%;
+    top: 9px;
+}
+
+.courses h1
+{
+    color: rgb(58, 49, 49);
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.courses_img
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.courses_img .img
+{
+    width: 31%;
+    height: 300px;
+    background-image: url(../Img/course.jpg);
+    background-size: cover;
+    margin-bottom: 30px;
+    border-radius: 6px;
+   color: #fff;
+}
+.courses_img .img .courses_text
+{
+    padding-top: 40% ;
+}
+.courses_img .img h3
+{
+    padding: 7px 10px;
+}
+
+.courses_img .img p
+{
+    padding: 10px 10px;
+}
+
+.courses_img .img_2
+{
+   
+    background-image: url(../Img/course1.jpg);
+}
+
+.courses_img .img_3
+{
+  
+    background-image: url(../Img/course2.jpg);
+   
+}
+
+/* uncoming courses ends */
+
+
+/* knowledge section */
+
+#knowledge
+{
+    width: 90%;
+    margin: 0 auto;
+}
+#knowledge .find
+{
+    text-align: center;
+    padding: 40px 0px;
+}
+#knowledge .find h1
+{
+    font-size: 40px;
+    font-weight: bold
+}
+#knowledge .find p
+{
+    padding: 20px 7px;
+}
+
+#knowledge .knowledge_img
+{
+    display: flex;
+    justify-content: space-between;
+    background-image:url(../Img/London.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 262px;
+   
+}
+
+#knowledge .knowledge_img div
+{
+    width: 32%;
+}
+
+#knowledge .knowledge_img img
+{
+    width: 100%;
+    border-radius: 4px;
+}
+
+
+/* testimonal */
+
+#Testimonal
+{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(9, 91, 158);
+    border-radius: 13px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    color: #fff;
+    padding: 30px 0px;
+}
+
+#Testimonal .testimonal_text
+{
+    width: 30%;
+    padding: 30px;
+}
+.heading_3{
+    color: #fff;
+}
+#Testimonal .testimonal_text h1
+{
+    font-size: 28px;
+    padding: 10px 0px;
+}
+
+#Testimonal  #add_border
+{
+    border-right: 1px solid #fff;
+}
+
+#Testimonal #testimonal_img
+{
+    width: 65%;
+   
+}
+
+#Testimonal .testimonal_text p
+{
+    line-height: 24px;
+    text-align: justify;
+}
+
+#Testimonal .testimonal_text img
+{
+    width: 10%;
+    border-radius: 6px;
+}
+ #testimonal_img .babidul
+{
+    margin-left: 6%; 
+    margin-top: -6%;
+    position: absolute;
+}
+#testimonal_img .para 
+{
+   padding: 10px 10px 10px 0px;
+}
+
+/* Blog_section starts */
+
+#Blog
+{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+#Blog .Our
+{
+    width: 65%;
+    padding: 20px 10px;
+}
+
+#Blog .Our h1
+{
+    font-weight: bold;
+    font-size: 38px;
+    color: rgb(58, 49, 49);
+    padding: 15px 15px;
+}
+#Blog .Our p
+{
+    padding: 15px 15px;
+    line-height: 25px;
+}
+
+#Blog .Our_2
+{
+    width: 20%;
+}
+
+.btn_4
+{
+    width: 200px;
+    height: 40px;
+    color: #000;
+    border: 1px solid rgb(58, 49, 49);
+    background: none;
+    border-radius: 5px;
+    margin-top: 50%;
+    
+}
+
+.btn_4:hover
+{
+    background: darkcyan;
+    color: #fff;
+}
+
+
+.Blog_text
+{
+    padding: 10px 40px;
+}
+
+.Blog_text div
+{
+    width: 30%;
+}
+
+.Blog_text div h4
+{
+    font-size: 20px;
+    color: rgb(58, 49, 49);
+    padding: 10px 0px;
+}
+
+.Blog_text div p
+{
+    line-height: 25px;
+    padding: 10px 0px;
+}
+
+.Blog_text div h6
+{
+    font-size: 17px;
+    font-weight: 100;
+    padding: 10px 0px;
+}
+.Blog_text div hr
+{
+    color: gray;
+}
+
+.fa-calendar-minus-o
+{
+    padding-right: 7px;
+}
+
+/* Blog ends */
+
+#professional
+{
+    width: 90%;
+    margin: 0 auto;
+    background-image: url(../Img/profession.jpg);
+    background-size: cover;
+    height: 300px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   background-position: center;
+   border-radius: 15px;
+}
+
+#professional h1, #professional h3
+{
+    font-size: 38px;
+    color: rgb(8, 155, 192);
+    font-weight: bold;
+    width: 40%;
+    margin-left: 7%;
+    position: relative;
+    top: 20%;
+}
+#professional h3
+{
+    color: rgb(58, 49, 49);
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+/* links starts */
+
+#links
+{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+    border-bottom: 1px solid grey;
+    /* margin-bottom: 20px; */
+}
+#links h3
+{
+    font-size: 22px;
+    color: rgb(58, 49, 49);
+    font-weight: bold;
+}
+
+#links .fa
+{
+    padding-right: 10px;
+    font-size: 20px;
+    color: grey;
+}
+
+/* footer starts */
+
+#Footer
+{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+}
+#Footer div{
+    width: 18%;
+   padding: 30px 0px;
+}
+
+#Footer div h5
+{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+#Footer div p
+{
+    padding: 7px 0px;
+}
+#Footer div p a{
+    text-decoration: none;
+    color: #000;
+}
+
+.footer_width3
+{
+    width: 10%;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+#Footer .footer_width4
+{
+    width: 40%;
+}
+
+#Footer div img
+{
+    width: 23.5%;
+}
+
+#copy
+{
+    width: 90%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+   
+}
+
+#copy i
+{
+    color: rgb(58, 49, 49);
+}
+
+
+/* media query add */
+
+@media only  screen and (max-width:920px) {
+      #header .fa-navicon
+    {
+       
+        display: block;
+    }
+
+    #header nav ul
+    {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background: darkcyan;
+    padding: 40px;
+    width: 70%;
+    z-index: 999;
+   
+    }
+    #header nav ul li{
+        padding: 10px;
+    }
+    #header nav ul li a
+    {
+    color: #fff;
+    
+    }
+
+    #header .logo
+    {
+        width: 70%;
+    }
+
+
+    #header nav button
+    {
+        width: 70%;
+    }
+
+
+
+    #header nav button
+    {
+    display: none;
+    }
+
+
+    .btn_1
+    {
+        margin-bottom: 20px;
+    }
+        
+        #About_us .About
+    {
+        flex-direction: column;
+    }
+    .About .left_section
+    {
+        width: 95%;
+    
+    }
+    .About .left_section .left
+    {
+        display: none;
+    }
+    #About_us .About .right_section
+    {
+        width: 95%;
+    
+    }
+    .Send
+    {
+    margin-bottom: 20px;
+    }
+
+    #knowledge .knowledge_img
+    {
+    flex-direction: column;
+    height: auto;
+    
+    }
+    #knowledge .knowledge_img div
+    {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
+    }
+
+@media only  screen and (max-width:800px){
+    
+    .banner_text
+{
+    width: 80%;
+   
+    margin-top: -60%;
+   
+}
+
+    
+    
+    #Suggetion
+    {
+    flex-direction: column;
+    }
+
+    #Suggetion .courses
+    {
+        width: 95%;
+    
+    }
+    .courses_img
+    {
+        flex-direction: column;
+    }
+    .courses_img .img
+    {
+        width: 95%;
+    }
+
+    #Testimonal
+    {
+        flex-direction: column;
+    }
+
+    #Testimonal .testimonal_text
+    {
+        width: 95%;
+    
+    }
+
+    #Testimonal  #add_border
+    {
+    border: none;
+    }
+
+    #Testimonal #testimonal_img
+    {
+        width: 95%;
+    }
+
+    #Testimonal .testimonal_text
+    {
+        
+        padding: 10px;
+    }
+
+    #testimonal_img .babidul
+    {
+        margin-left: 10%; 
+        margin-top: -9%;
+    }
+
+    #Blog
+    {
+        flex-direction: column;
+    
+    }
+    .Blog_text div
+    {
+        width: 90%;
+    }
+
+    #Blog .Our_2
+    {
+        margin-left: 30px;
+        
+    }
+    .btn_4
+    {
+    
+        margin-top: 15%;
+        margin-bottom: 20px;
+        
+    }
+
+    #professional h1, #professional h3
+    {
+    
+        width: 95%;
+        
+    }
+
+    }
+
+    @media only screen and (max-width:600px) {
+        #Footer
+        {
+            flex-direction: column;
+        }
+        #Footer div{
+            width: 100%;
+           padding: 30px 0px;
+        }
+        
+        
+        
+        
+           #links
+          {
+               flex-direction: column;
+                
+            }
+
+            .footer_width3
+        {
+            width: 10%;
+            margin-top: 0px;
+        
+        }
+
+        #Footer .footer_width4
+        {
+            width: 100%;
+        }
+        #copy
+        {
+            flex-direction: column;
+        }
+
+        .links .fa
+        {
+           padding-top: 15px;
+        }
+        
+        
+    }
+
+   /* the ends */

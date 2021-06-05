@@ -847,7 +847,6 @@
     .banner_text
 {
     width: 80%;
-   
     margin-top: -60%;
    
 }
@@ -979,6 +978,20 @@
         }
         
         
+    }
+
+    @media only screen and (max-width:400px){
+        .banner_text
+        {
+            width: 95%;
+            margin-top: -80%;
+           
+        }
+        .banner_text h1
+{
+    font-size: 30px;
+    font-weight: bold;
+}
     }
 
    /* the ends */
